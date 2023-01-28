@@ -1,10 +1,5 @@
 # LNG站点聚类
 
-<center><div style='height:2mm;'></div><div style="font-family:华文楷体;font-size:14pt;">2019211312 张晏宁 2019213684</div></center>
-<center><span style="font-family:华文楷体;font-size:9pt;line-height:9mm">北京邮电大学 计算机学院</span>
-
-[TOC]
-
 ## LNG站点
 
 ### 液化天然气LNG
@@ -15,7 +10,7 @@
 
 液化天然气 (Liquefied natural gas, LNG) 是为了方便安全地进行非加压储存或运输，将天然气冷却后产生的液化形式。在标准状况下其体积约为同等质量天然气的1/600. LNG无嗅、无色、无毒、无腐蚀性 ，其危险包括气化后的可燃性，冻结和窒息。 液化过程主要为在去除某些成分，如灰尘、酸性气体、氦气、水和重碳氢化合物后，将天然气冷却到大约−162°C (−260°F) ，在接近大气压的情况下凝结成液体。其最大输送压力设定在25kpa (4psi) 左右。[^2]
 
-<img src="C:\Users\12944\AppData\Roaming\Typora\typora-user-images\image-20211209185855527.png" alt="image-20211209185855527" style="zoom: 67%;" />
+<img src="images\image-20211209185855527.png" alt="image-20211209185855527" style="zoom: 67%;" />
 
 <center>图1.1 Regional distribution of natural gas potential</center>
 
@@ -23,19 +18,19 @@
 
 1956年，康斯托克液态甲烷公司成立，美国大陆石油公司拥有60%的股份，William Wood Prince 的联合畜牧场公司拥有40%的股份。该项目与英国天然气协会 (British Gas Council) 合作，目的是建造一艘液化天然气油轮并测试液化天然气储罐。康斯托克负责工程。为了节省时间和金钱，公司决定对现有的一艘船进行改造，并将精力集中开发耐低温液化天然气罐这一主要方面。设计团队最终选择铝和9%的镍钢作为储罐材料，这两种材料在测试中都表现良好。于此同时，来自肯塔基州路易斯维尔的专业公司甘布尔兄弟 (Gamble Brothers) 对巴尔沙木材绝缘材料进行了进一步的开发工作，设计了使用绝缘材料阻断与LNG直接接触的方案，来自马萨诸塞州剑桥市的 Arthur D. Little 设计了船舱运输构造 (Tanks) 。1959年7月25日，满载液化天然气的“甲烷先锋号”开始了穿越大西洋到英国的航行，这次航行大大拓宽了设计公司的知识库，同时也证明了用船运输液化天然气的可行性。因此，工业规模的运营已经势不可挡。
 
-<img src="C:\Users\12944\AppData\Roaming\Typora\typora-user-images\image-20211209192548867.png" alt="image-20211209192548867" style="zoom: 50%;" />
+<img src="images\image-20211209192548867.png" alt="image-20211209192548867" style="zoom: 50%;" />
 
 <center>图1.2 LNG Vessel structure</center>
 
 20世纪80年代，在德国威廉港附近的 Jade busen，一个专业的液化天然气接收站的规划工作开始。这个接收站的所有者是 Deutsche Flüssigerdgas Terminal Gesellschaft (dftg)，其大股东是 Ruhrgas AG (后来的意昂公司)。他们的计划包括三个储罐，每个储罐的液化天然气容量为8万立方米，终端设计的液化天然气入口容量为12万立方米/小时，天然气再气化能力为120万立方米/小时。这个接收站所选择的储罐系统有一个顶部打开的内部容器和一个封闭的预应力混凝土外部容器，该外部容器通过一层聚氨酯泡沫保护，防止液化天然气直接接触，聚氨酯泡沫覆盖底板和墙壁的整个高度。内箱直径为62米，高28米，外箱直径为66米，整体高41米。该系统设计的工作压力为200 mbar，安全阀在300 mbar时启动。林德负责工艺工程，诺尔负责钢内容器，DYWIDAG负责混凝土外容器。这一接收站的设计获得了成功，在接下来的几十年里，液化天然气市场开始分阶段地迅速扩张：要么是出口终端或接收终端的容量增加，要么是一个新的国家成为出口国或进口国。[^3]
 
-<img src="C:\Users\12944\AppData\Roaming\Typora\typora-user-images\image-20211210032020138.png" alt="image-20211210032020138" style="zoom:50%;" />
+<img src="images\image-20211210032020138.png" alt="image-20211210032020138" style="zoom:50%;" />
 
 <center>图1.3 LNG Receiving Terminal</center>
 
 LNG运输链由图1.4所示5个部分组成。在整个过程中，最主要的部分也即本实验关心的部分是海上船舶的运输过程：其中包括LNG船舶的航行状况信息，以及LNG入站点和出站点的分布。
 
-<img src="C:\Users\12944\AppData\Roaming\Typora\typora-user-images\image-20211210025845603.png" alt="image-20211210025845603" style="zoom: 80%;" />
+<img src="images\image-20211210025845603.png" alt="image-20211210025845603" style="zoom: 80%;" />
 
 <center>图1.4 LNG Chain</center>
 
@@ -43,11 +38,11 @@ LNG运输链由图1.4所示5个部分组成。在整个过程中，最主要的�
 
 LNG站点分为出口站/液化厂 (Export Terminal / Liquefaction Plants) 和接收站 (Receiving Terminal) 。LNG站点是海上LNG运输系统的端点，也是船舶航线和泊点的汇聚地。
 
-<img src="C:\Users\12944\AppData\Roaming\Typora\typora-user-images\image-20211211130400469.png" alt="image-20211211130400469" style="zoom:33%;" />
+<img src="images\image-20211211130400469.png" alt="image-20211211130400469" style="zoom:33%;" />
 
 <center>图1.5 Australia Gladstone LNG Export Terminal</center>
 
-<img src="C:\Users\12944\AppData\Roaming\Typora\typora-user-images\image-20211211130153109.png" alt="image-20211211130153109" style="zoom: 33%;" />
+<img src="images\image-20211211130153109.png" alt="image-20211211130153109" style="zoom: 33%;" />
 
 <center>图1.6 Japan Chita LNG Receiving Terminal</center>
 
@@ -57,7 +52,7 @@ LNG站点分为出口站/液化厂 (Export Terminal / Liquefaction Plants) 和�
 
 LGU发布的 2021 WORLD LNG REPORT 显示：截至2020年年底，含2020年交付使用的35艘新船在内，全球LNG运输船船队由572艘现役船只组成，其中包括37艘浮式存储和再气化装置 (FSRU) 以及4艘浮式存储装置 (FSU) 。与2019年相比，这一数字增长了7%，而液化天然气航次增长了1%，这一数字低于预期，主要是由于COVID-19流行导致的需求中断。报告中还提到，在即将到来的2021年中，预期将有64艘新的LNG运输船将投入使用。于此同时，报告提供了LNG海上运输网络的主要航线，如图1.6所示。
 
-<div align=center><img width = '45%' height ='45%' src ="C:\Users\12944\AppData\Roaming\Typora\typora-user-images\image-20211210032417795.png" alt="image-20211210032417795"/> <img width = '45%' height ='45%' src ="C:\Users\12944\AppData\Roaming\Typora\typora-user-images\image-20211210033655022.png" alt="image-20211210033655022"/></div>
+<div align=center><img width = '45%' height ='45%' src ="images\image-20211210032417795.png" alt="image-20211210032417795"/> <img width = '45%' height ='45%' src ="images\image-20211210033655022.png" alt="image-20211210033655022"/></div>
 
 <div align=center>
     <span width = '50%' height ='45%' align=center>图1.7 LNG Vessels information by the end of 2020</span>
@@ -69,7 +64,7 @@ LGU发布的 2021 WORLD LNG REPORT 显示：截至2020年年底，含2020年交�
 
 2020年全球LNG接收站容量的增加大部分来自亚洲和亚太市场，印度和缅甸各增加了一个新的站点，展示了该地区的显著增长。在2020年末和2021年初，巴西和克罗地亚的两个新站点将投入使用，浮式再气化站点也在增加。成熟的进口市场将推动大多数再气化能力的增长，在亚洲尤其如此，中国和印度正在建设大量的再气化项目，以支撑强劲的天然气需求。预计在不久的将来，包括加纳、萨尔瓦多、塞浦路斯和尼加拉瓜在内的许多新的液化天然气进口国也将大大促进再气化能力的增长。所有这些市场都处于建造第一个LNG接受站的后期阶段，这些站点都计划在未来两年内上线。其他几个新市场也计划增加再气化能力，包括科特迪瓦、摩洛哥和德国。然而，由于各种各样的挑战，如融资和基础设施建设相关法规，这些市场中的许多都经历了项目开发的延迟。尽管存在这些挑战，但随着液化天然气发电项目的不断发展，全球液化天然气市场每年将继续增加一到两个新的液化天然气进口商。
 
-<div align=center><img width = '45%' height ='45%' src =C:\Users\12944\AppData\Roaming\Typora\typora-user-images\image-20211210042932507.png alt="image-20211210032417795"/> <img width = '45%' height ='45%' src =C:\Users\12944\AppData\Roaming\Typora\typora-user-images\image-20211210042753191.png alt="image-20211210033655022"/></div>
+<div align=center><img width = '45%' height ='45%' src =images\image-20211210042932507.png alt="image-20211210032417795"/> <img width = '45%' height ='45%' src =images\image-20211210042753191.png alt="image-20211210033655022"/></div>
 
 <div align=center>
     <span width = '50%' height ='45%' align=center>&#12288图1.9 LNG Receiving Terminals information&#12288</span>
@@ -142,19 +137,19 @@ LGU发布的 2021 WORLD LNG REPORT 显示：截至2020年年底，含2020年交�
 
 通过在个人搭建的服务器上建立数据库进行测试观察，并使用C++、Python相关项目和一些优化软件进行可视化处理，得到数据的大致状况和部分分类细节如下(预观测的部分由于依赖个人搭建的Mysql数据库和Github项目，且不属于本实验预处理所使用的实际代码部分，故代码暂略)：
 
-<img src="C:\Users\12944\AppData\Roaming\Typora\typora-user-images\image-20211210051727912.png" alt="image-20211210051727912" style="zoom:50%;" />
+<img src="images\image-20211210051727912.png" alt="image-20211210051727912" style="zoom:50%;" />
 
-<img src="C:\Users\12944\AppData\Roaming\Typora\typora-user-images\image-20211211130918720.png" alt="image-20211211130918720" style="zoom: 67%;" />
+<img src="images\image-20211211130918720.png" alt="image-20211211130918720" style="zoom: 67%;" />
 
 <center>图2.1、2.2 数据点分布</center>
 
 - **噪声/异常数据1：**观察到部分噪声孤立点和异常孤立点存在，提取其中某两点输入谷歌地球模型，结果如下：
 
-  <img src="C:\Users\12944\AppData\Roaming\Typora\typora-user-images\image-20211210051803073.png" alt="image-20211210051803073" style="zoom:25%;" />
+  <img src="images\image-20211210051803073.png" alt="image-20211210051803073" style="zoom:25%;" />
 
   <center>图2.3 异常孤立点</center>
 
-  <img src="C:\Users\12944\AppData\Roaming\Typora\typora-user-images\image-20211210052042407.png" alt="image-20211210052042407" style="zoom:25%;" />
+  <img src="images\image-20211210052042407.png" alt="image-20211210052042407" style="zoom:25%;" />
 
   <center>图2.4 噪声孤立点</center>
 
@@ -162,11 +157,11 @@ LGU发布的 2021 WORLD LNG REPORT 显示：截至2020年年底，含2020年交�
 
 - **异常数据2：**通过数据库查询，可得到存在吃水深度过大和吃水深度过小的部分异常数据如下：
 
-  <img src="C:\Users\12944\AppData\Roaming\Typora\typora-user-images\image-20211210060031030.png" alt="image-20211210052042407" style="zoom: 80%;" />
+  <img src="images\image-20211210060031030.png" alt="image-20211210052042407" style="zoom: 80%;" />
 
   <center>图2.5 过大吃水深度数据</center>
 
-  <img src="C:\Users\12944\AppData\Roaming\Typora\typora-user-images\image-20211211131839074.png" alt="image-20211211131839074" style="zoom:80%;" />
+  <img src="images\image-20211211131839074.png" alt="image-20211211131839074" style="zoom:80%;" />
 
   <center>图2.6 过小吃水深度数据</center>
 
@@ -180,7 +175,7 @@ LGU发布的 2021 WORLD LNG REPORT 显示：截至2020年年底，含2020年交�
 
   可得，由于特殊原因造成了吃水深度异常的数据污染。且根据可视化结果观察知，这些船只并无其他数据的异常行为。
 
-  <img src="C:\Users\12944\AppData\Roaming\Typora\typora-user-images\image-20211211132647507.png" alt="image-20211211132647507" style="zoom:50%;" />
+  <img src="images\image-20211211132647507.png" alt="image-20211211132647507" style="zoom:50%;" />
 
   <center>图2.6 吃水数据异常船只</center>
 
@@ -188,7 +183,7 @@ LGU发布的 2021 WORLD LNG REPORT 显示：截至2020年年底，含2020年交�
 
 - **异常数据3：**通过数据库查询得到，含有部分航行状况异常的船（锚定 / 系泊等固定状态时以一定速度行驶了一段时间）
 
-  ![image-20211211134058028](C:\Users\12944\AppData\Roaming\Typora\typora-user-images\image-20211211134058028.png)
+  ![image-20211211134058028](images\image-20211211134058028.png)
 
   <center>图2.6 航行状况异常船只</center>
 
@@ -276,13 +271,13 @@ LGU发布的 2021 WORLD LNG REPORT 显示：截至2020年年底，含2020年交�
 
 ：
 
-<img src="C:\Users\12944\AppData\Roaming\Typora\typora-user-images\image-20211211141909792.png" alt="image-20211211141909792" style="zoom:50%;" />
+<img src="images\image-20211211141909792.png" alt="image-20211211141909792" style="zoom:50%;" />
 
 <center>图2.7 相关点数据</center>
 
 **这些数据唯一精准了刻画了广东大鹏接受站 (GuangDong Dapeng Receving Terminal)**:
 
-<img src="C:\Users\12944\AppData\Roaming\Typora\typora-user-images\image-20211211142147618.png" alt="image-20211211142147618" style="zoom:50%;" />
+<img src="images\image-20211211142147618.png" alt="image-20211211142147618" style="zoom:50%;" />
 
 <center>图2.8 GuangDong Dapeng Receiving Station</center>
 
@@ -328,7 +323,7 @@ LGU发布的 2021 WORLD LNG REPORT 显示：截至2020年年底，含2020年交�
   Cluster
   ```
   
-  <img src="C:\Users\12944\AppData\Roaming\Typora\typora-user-images\image-20211213203701300.png" alt="image-20211213203701300" style="zoom:67%;" />
+  <img src="images\image-20211213203701300.png" alt="image-20211213203701300" style="zoom:67%;" />
 
 相关输出文件 lng_results_list.json 会生成在项目目录下。
 
@@ -650,7 +645,7 @@ int main()
 
   该可视化结果通过 HTML/JavaScript 调用 Echarts 实现，代码可见 Project/Visualization Code 文件夹中。
   
-  ![image-20211213214831715](C:\Users\12944\AppData\Roaming\Typora\typora-user-images\image-20211213214831715.png)
+  ![image-20211213214831715](images\image-20211213214831715.png)
   
   <center>图5.1 聚类结果
   
